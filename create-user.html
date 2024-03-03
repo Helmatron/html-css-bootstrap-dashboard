@@ -45,3 +45,81 @@
             </div>
           </nav>
     </header>
+
+
+      <!-- MAIN -->
+      <main>
+
+        <!-- FORM -->
+        <div class="container col-8">
+
+        <form action="">
+          <h1 class="text-center py-5">Informazioni</h1>
+
+            <!-- nome e cognome -->
+          <div class="row g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="name" name="name" class="form-control" id="name" placeholder="Nome*" required>
+                <label for="name">Nome*</label>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="surname" name="surname" class="form-control" id="surname" placeholder="Cognome*" required>
+                <label for="surname">Cognome*</label>
+              </div>
+            </div>
+          </div>
+
+            <!-- e-mail -->
+          <div class="col-md my-5">
+            <div class="form-floating">
+              <input type="e-mail" name="e-mail" class="form-control" id="e-mail" placeholder="e-mail">
+              <label for="e-mail">e-mail (opzionale)</label>
+            </div>
+          </div>
+
+              <!-- indirizzo -->
+            <div class="row">
+              <div class="col-6">
+                <div class="form-control">
+                  <label for="address">Via</label>
+                  <input type="address" name="address" class="form-control" id="address" placeholder="via boolean, 37" required>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-control">
+                  <label for="city">Città</label>
+                  <input type="city" name="city" class="form-control" id="city" placeholder="Milano" required>                  
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-control">
+                  <label for="zip">ZIP</label>
+                  <input type="zip" name="zip" class="form-control" id="zip" placeholder="50100" required>                  
+                </div>
+              </div>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="col-md py-5">
+              <div class="d-grid">
+                <input class="btn btn-primary" type="submit" value="Submit">
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+      </main>
+
+         <!-- footer -->
+    <footer></footer>
+
+
+    <!-- js script sempre in fondo al body -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
